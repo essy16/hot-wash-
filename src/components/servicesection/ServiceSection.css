@@ -1,0 +1,25 @@
+.services {
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, #FF5F1F, #F7931E);
+  }
+  
+  .service-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .service-item {
+    flex: 1 1 30%;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .service-item:hover {
+    transform: translateY(-5px);
+  }
+  

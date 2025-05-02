@@ -1,0 +1,28 @@
+.about {
+  background: linear-gradient(135deg, #FF5F1F, #F7931E);
+  padding: 3rem 2rem;
+  text-align: center;
+  animation: fadeIn 2s ease;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.1rem;
+  line-height: 2;
+  color: #333;
+}
+
+.features li::before {
+  content: '✓';
+  color: #00b894;
+  margin-right: 0.75rem;
+}

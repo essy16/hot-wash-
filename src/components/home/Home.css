@@ -1,0 +1,13 @@
+.logo{
+    width: 300px;
+    height: 300px;
+}
+.whatsapp-link {
+    color: rgb(247, 131, 7); /* Set the text color to orange */
+    text-decoration: none; /* Remove underline from the link */
+  }
+  
+  .whatsapp-link:hover {
+    text-decoration: underline; /* Optionally add underline on hover */
+  }
+  
