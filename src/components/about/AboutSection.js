@@ -1,16 +1,26 @@
+// File: src/components/AboutSection.js
 import React from "react";
 import "./AboutSection.css";
 
 export default function AboutSection() {
   return (
     <section className="about">
-      <h2>What Makes Our Hot Wash Better?</h2>
+      <h2>What We Do</h2>
       <ul className="features">
-        <li>🔥 50% More Efficient – Quicker, Deeper Clean</li>
-        <li>💧 Zero Streaks & Water Spots – Even in Hard Water Areas</li>
-        <li>🐦 Removes Bird Droppings, Grime & Builders’ Dust</li>
-        <li>🏠 £10 Full House Offer for Wynyard Residents</li>
+        <li>🔥 Greater cleaning power over cold wash</li>
+        <li>🧼 Dissolves builders’ grime and dust</li>
+        <li>🐦 Removes bird grime and residue</li>
+        <li>💧 Streak-free with fewer water spots</li>
+        <li>💦 Better in hard water areas</li>
+        <li>⚡ 50% more efficient – quicker cleans, reduced costs</li>
       </ul>
+      <div className="offer">
+        <div className="starburst">£10 Wynyard Resident Offer</div>
+        <p>
+          Full house window clean with Hot Wash tech – Includes all doors,
+          ground floor sills, front, rear & sides.
+        </p>
+      </div>
     </section>
   );
 }

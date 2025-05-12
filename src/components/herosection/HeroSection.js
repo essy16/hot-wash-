@@ -1,22 +1,14 @@
 import React from "react";
 import "./HeroSection.css";
-import heroImage from "../../assets/hero-window-cleaning.jpg";
+import logoImage from "../../assets/the_hot_wash.jpeg";
 
 export default function HeroSection() {
   return (
     <section className="hero fade-in">
       <div className="hero-content">
-        <div className="hero-text">
-          <h1>Wynyard’s Premium Window Care</h1>
-          <p>
-            Only £10 for a full house window clean – Hot Wash Technology
-            Included!
-          </p>
-          <a href="#contact" className="cta-button">
-            Book Now
-          </a>
-        </div>
-        <img src={heroImage} alt="Window Cleaning" className="hero-img float" />
+        <h1 className="main-heading">Welcome to the Hot Wash Window Co</h1>
+        <p className="sub-heading">Wynyard’s premier window cleaning service</p>
+        <img src={logoImage} alt="Hot Wash Logo" className="logo-img bounce" />
       </div>
     </section>
   );

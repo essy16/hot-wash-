@@ -1,5 +1,5 @@
 .about {
-  background: linear-gradient(135deg, #FF5F1F, #F7931E);
+  background-color: #f0fbff;
   padding: 3rem 2rem;
   text-align: center;
   animation: fadeIn 2s ease;
@@ -7,7 +7,7 @@
 
 .about h2 {
   font-size: 2.5rem;
-  color: #ffffff;
+  color: #0066cc;
   margin-bottom: 1.5rem;
 }
 
@@ -25,4 +25,20 @@
   content: '✓';
   color: #00b894;
   margin-right: 0.75rem;
+}
+
+.offer {
+  margin-top: 2rem;
+}
+
+.starburst {
+  display: inline-block;
+  background: #f7931e;
+  color: white;
+  padding: 1.2rem 2rem;
+  border-radius: 50%;
+  font-size: 1.8rem;
+  font-weight: bold;
+  transform: rotate(-10deg);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }

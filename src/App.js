@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div className="App">
       <Herosection />
-      <ServicesSection />
+      {/* <ServicesSection /> */}
       <AboutSection />
       <ContactSection />
     </div>
