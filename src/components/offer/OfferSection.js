@@ -4,7 +4,9 @@ import "./OfferSection.css";
 export default function OfferSection() {
   return (
     <section className="offer">
-      <h2>Wynyard Resident Package – £10</h2>
+      <h2>
+        Wynyard Resident Package <span className="starburst">💥 £10 💥</span>
+      </h2>
       <p>• Full house window cleaning</p>
       <p>• Hot wash as standard for greater cleaning power</p>
       <p>• Front, rear and side doors</p>

@@ -13,4 +13,18 @@
   color: #f7931e;
   text-align: center;
   margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.starburst {
+  background: #f7931e;
+  color: white;
+  padding: 0.4rem 1rem;
+  margin-left: 0.5rem;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: inline-block;
+  transform: rotate(-5deg);
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
 }
