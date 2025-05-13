@@ -1,33 +1,17 @@
 .hero {
-  background: linear-gradient(135deg, #007acc, #00c8e0);
-  color: white;
-  padding: 4rem 2rem;
+  background: #ffffff;
   text-align: center;
-  animation: fadeIn 1.5s ease-in;
+  padding: 4rem 2rem;
+  color: #f7931e;
 }
 
-.hero-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
+.logo-full {
+  max-width: 400px;
+  width: 100%;
 }
 
-.main-heading {
-  font-size: 2.8rem;
-  font-weight: bold;
-}
-
-.sub-heading {
-  font-size: 1.4rem;
-}
-
-.logo-img {
-  max-width: 320px;
-  animation: bounce 2s infinite;
-}
-
-@keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-15px); }
+.tagline {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  color: #f7931e;
 }

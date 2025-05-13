@@ -5,11 +5,8 @@ import logoImage from "../../assets/the_hot_wash.jpeg";
 export default function HeroSection() {
   return (
     <section className="hero fade-in">
-      <div className="hero-content">
-        <h1 className="main-heading">Welcome to the Hot Wash Window Co</h1>
-        <p className="sub-heading">Wynyard’s premier window cleaning service</p>
-        <img src={logoImage} alt="Hot Wash Logo" className="logo-img bounce" />
-      </div>
+      <img src={logoImage} alt="Hot Wash Logo" className="logo-full" />
+      <h1 className="tagline">The Premier Window Cleaning Service</h1>
     </section>
   );
 }

@@ -1,5 +1,5 @@
-.about {
-  background-color: #fff7ed;
+.offer {
+  background-color: #fff0da;
   padding: 3rem 2rem;
   text-align: left;
   color: #333;
@@ -9,7 +9,7 @@
   line-height: 2;
 }
 
-.about h2 {
+.offer h2 {
   color: #f7931e;
   text-align: center;
   margin-bottom: 2rem;
